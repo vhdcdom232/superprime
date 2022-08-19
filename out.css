@@ -1,0 +1,152 @@
+.body
+{
+    margin:0;
+    padding:0;
+    font-family:"Poppins";
+    background: #e6e6e6;
+}
+.container
+{
+    display:flex;
+    flex-direction: row;
+}
+.container .content-wrapper
+{
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-flow:column;
+    width:1200px;
+    height:100vh;
+    background: linear-gradient(180deg,#131418,#34465d);
+}
+.container .null h1
+{ margin:0;
+    color:white;
+    font-family:"Roboto";
+    font-size:3em;
+    text-align:center;
+    
+
+}
+.container .null p
+{ margin:0;
+    color:white;
+    text-align:justify;
+    width: 500px;
+
+    
+
+}
+.cards
+{
+    display:flex;
+    flex-flow:row wrap;
+    margin:0;
+    padding:0;
+}
+.card1,.card2,.card3,.card4,.card5,.card6
+{ margin:0 20px;
+    padding:5px;
+    width:250px;
+    height: 100px;
+position: relative;
+}
+.card1-header-wrapper,
+.card2-header-wrapper,
+.card3-header-wrapper,
+.card4-header-wrapper,
+.card5-header-wrapper,
+.card6-header-wrapper
+{
+    margin: 3px;
+    padding:3px;
+    display: block;
+    width:250px;
+    height:50px;
+    border-top: solid #1d1d1d ;
+    border-bottom: 6px solid #1d1d1d;
+}
+.header1,
+.header2,
+.header3,
+.header4,
+.header5,
+.header6
+{
+    margin:0;
+    width:250px;
+    height:50px;
+    font-size:2em;
+    color:white;
+    text-align: center;
+}
+
+.card1-body-wrapper,
+.card2-body-wrapper,
+.card3-body-wrapper,
+.card4-body-wrapper,
+.card5-body-wrapper,
+.card6-body-wrapper
+{
+width: 250px;
+height:260px;
+background:linear-gradient(180deg, white, rgba(0,0,0,0.2));
+border:6px solid transparent;
+border-image-source: linear-gradient(rgba(0,0,0,0.4), white);
+}
+.card1-header-content h2,
+.card2-header-content h2,
+.card3-header-content h2,
+.card4-header-content h2,
+.card5-header-content h2,
+.card6-header-content h2
+{ margin:0;
+    padding: 5px;
+    font-family: "Montserrat";
+    font-size:1.5em;
+    font-weight:900;
+    color:#1d1d1d;
+    text-align:center
+
+}
+.card1-body-content p,
+.card2-body-content p,
+.card3-body-content p,
+.card4-body-content p,
+.card5-body-content p,
+.card6-body-content p
+{
+    margin: 0;
+    padding:10px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-align: justify;
+
+}
+.header1
+{
+    background:linear-gradient(90deg, red , orangered)
+}
+
+.header2
+{
+    background:linear-gradient(90deg, orange, orangered)
+}
+.header3
+{
+    background:linear-gradient(90deg, green , orangered)
+}
+.header4
+{
+    background:linear-gradient(90deg, blue , orangered)
+}
+.header5
+{
+    background:linear-gradient(90deg, purple , orangered)
+}
+.header6
+{
+    background:linear-gradient(90deg, yellow , orangered)
+}
